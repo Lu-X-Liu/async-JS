@@ -9,6 +9,7 @@ function watchTask() {
     });
     watch('index.html').on('change', browserSync.reload);
     watch('async.js').on('change', browserSync.reload);
+    watch('sandbox.js').on('change', browserSync.reload);
 };
 
 exports.w = watchTask;
